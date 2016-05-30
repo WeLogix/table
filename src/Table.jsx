@@ -207,7 +207,7 @@ const Table = React.createClass({
       const childrenColumn = record[childrenColumnName];
       const isRowExpanded = this.isRowExpanded(record);
       let expandedRowContent;
-      if (expandedRowRender && isRowExpanded) {
+      if (expandedRowRender && isRowExpanded && !fixed) {
         expandedRowContent = expandedRowRender(record, i);
       }
       let className = rowClassName(record, i);
