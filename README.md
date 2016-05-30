@@ -1,3 +1,7 @@
+# notes
+This package with fixed a [problem](https://github.com/ant-design/ant-design/issues/1898).
+
+
 # rc-table
 
 react table component
